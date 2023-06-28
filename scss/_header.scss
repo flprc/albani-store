@@ -1,0 +1,34 @@
+
+header .container {
+
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .hero {
+        align-items: flex-end;
+        background-image: url('../assets/images/logo-banner.jpg');
+        background-size: 1400px auto;
+        margin-top: 45px;
+        padding: 2rem;
+        background-repeat: no-repeat;
+        background-position: top center;
+        height: 40rem;
+        overflow: hidden;
+        display: flex;
+        width: 100%;
+
+        h1 {
+            padding: 1rem 0 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        @media (max-width: 767px) {
+                background-size: 950px auto;
+                height: 32rem;
+            
+        }
+    }
+
+}
